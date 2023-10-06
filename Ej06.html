@@ -1,0 +1,76 @@
+<html>
+    <head>
+    </head>
+    <body>
+        <form action="Ej06.php" method="get">
+            <fieldset>
+                <legend>Ficha de la película</legend>
+                <label>Título</label>
+                <input type="text">
+                <br>
+                <label>Director</label>
+                <input type="text">
+                <br>
+                <label>Fecha de estreno</label>
+                <input type="date">
+                <br>
+                <label>Póster</label>
+                <input type="file">
+                <br>
+                <label>Versión:</label>
+                <br>
+                <input type="checkbox" value="IMAX">
+                <label>IMAX</label>
+                <input type="checkbox" value="3D">
+                <label>3D</label>
+                <input type="checkbox" value="Full HD">
+                <label>FULL HD</label>
+                <br>
+                <label>Clasificación:</label>  
+                <br>
+                <input type="radio" name="edad" value="TP">
+                <label>TP</label>
+                <input type="radio" name="edad" value="+12">
+                <label>+12</label>
+                <input type="radio" name="edad" value="+15">
+                <label>+15</label>
+                <input type="radio" name="edad" value="+18">
+                <label>+18</label>
+            </fieldset>
+            <fieldset>
+                <legend>Ficha de proyección</legend>
+                <label>Sala:</label>
+                <input type="text">
+                <br>
+                <textarea  rows="10" cols="55"></textarea>
+                <br>
+                <select>
+                    <option>Inglés</option>
+                    <option>Español</option>
+                    <option>Sueco</option>
+                    <option>Finés</option>
+                </select>
+                <br>
+                <label>Sesión</label>
+                <input type="time">
+                <br>
+                <label>Días de proyección:</label>
+                <br>
+                <select size="4">
+                    <option>Lunes</option>
+                    <option>Martes</option>
+                    <option>Miercoles</option>
+                    <option>Jueves</option>
+                    <option>Viernes</option>
+                    <option>Sabado</option>
+                    <option>Domingo</option>
+                </select>
+                <br>
+                <label>Elige un color de fondo</label>         
+                <input type="color">
+                <br>
+                <label>Puntación del público:</label>
+                <progress value="70" max="100"></progress>
+            </form>
+    </body>
+</html>
